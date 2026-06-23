@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth status 2>&1)",
+      "Bash(cd /Users/jhyan/github/readme && git init)",
+      "Bash(cd /Users/jhyan/github/readme && gh repo create readme --public --source=. --remote=origin --push 2>&1)",
+      "Bash(cd /Users/jhyan/github/readme && git add README.md && git commit -m \"Initial commit: 个人IP工作经验沉淀仓库\")",
+      "Bash(cd /Users/jhyan/github/readme && mkdir -p articles/project-practice articles/tech-review articles/tools articles/career templates)",
+      "Bash(cd /Users/jhyan/github/readme && git add -A && git commit -m \"Add directory structure and article template\" && git push)"
+    ]
+  }
+}
